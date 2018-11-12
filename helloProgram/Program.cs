@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace helloProgram
 {
@@ -11,8 +7,8 @@ namespace helloProgram
         static void Main(string[] args)
         {
             Console.WriteLine("My name is Bartek");
-            Console.WriteLine(DateTime.Now.ToString(("dd/mm/yyyy HH:mm:ss")));
-            Console.ReadKey();
+            Console.WriteLine(  );
+            while (Console.ReadKey().Key != ConsoleKey.Enter) { }
         }
     }
 }
