@@ -11,6 +11,8 @@ namespace helloProgram
         static void Main(string[] args)
         {
             Console.WriteLine("My name is Bartek");
+            Console.WriteLine(DateTime.Now.ToString(("dd/mm/yyyy HH:mm:ss")));
+            Console.ReadKey();
         }
     }
 }
