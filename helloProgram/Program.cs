@@ -8,7 +8,7 @@ namespace helloProgram
         {
             Console.WriteLine("My name is Bartek");
             Console.WriteLine(  );
-            while (Console.ReadKey().Key != ConsoleKey.Enter) { }
+           
         }
     }
 }
