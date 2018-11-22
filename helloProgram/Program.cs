@@ -12,7 +12,7 @@ namespace helloProgram
             int age;
             for (; ;)
             {
-                string name = NewMethod();
+                string name = AskForName();
                 age = NewMethod1(name);
 
                 ClearProgramData();
@@ -56,7 +56,7 @@ namespace helloProgram
             Console.ResetColor();
         }
 
-        private static string NewMethod()
+        private static string AskForName()
         {
             Console.Write(askForName);
             string name = Console.ReadLine();
